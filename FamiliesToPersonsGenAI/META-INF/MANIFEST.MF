@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FamiliesToPersonsGenAI
+Bundle-SymbolicName: FamiliesToPersonsGenAI
+Bundle-Version: 1.0.0.qualifier
+Export-Package: de.university.hof.genai.f2p
+Require-Bundle: Families;bundle-version="1.0.0",
+ Persons;bundle-version="1.0.0",
+ org.eclipse.emf.ecore;bundle-version="2.36.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.37.0"
+Automatic-Module-Name: FamiliesToPersonsGenAI
+Bundle-RequiredExecutionEnvironment: JavaSE-21
